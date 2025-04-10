@@ -7,35 +7,35 @@ const ScoreBoard = () => {
 
   return (
     <div className="my-4 flex items-center justify-between">
-      <div className="flex  ">
+      <div className="flex w-10 ">
         {
           chances === 3 ? (
           <>
 
             <img
-              className='h-20'
+              className='h-20 '
               src="https://freesvg.org/img/Pokeball.png" alt="" />
             <img
-              className='h-20'
+              className='h-20 '
               src="https://freesvg.org/img/Pokeball.png" alt="" />
             <img
-              className='h-20'
+              className='h-20 '
               src="https://freesvg.org/img/Pokeball.png" alt="" />
 
           </>) : chances === 2 ? (
             <>
                <img 
-   className='h-20' 
+   className='h-20 ' 
    src="https://freesvg.org/img/Pokeball.png" alt="" />
    <img 
-   className='h-20' 
+   className='h-20 ' 
    src="https://freesvg.org/img/Pokeball.png" alt="" />
 
             </>
           ) : (
 
             <img 
-            className='h-20' 
+            className='h-20 ' 
             src="https://freesvg.org/img/Pokeball.png" alt="" />
          
           )
